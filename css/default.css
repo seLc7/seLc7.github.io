@@ -90,7 +90,7 @@ pre ol{margin-left:25px;list-style-type:decimal;}
     background-image:url('http://img5.douban.com/view/photo/photo/public/p2173347487.jpg');
 }
 .project .aside{
-    background-image:url('http://img3.douban.com/view/photo/photo/public/p2189555693.jpg')
+    background-image:url(http://img3.douban.com/view/photo/photo/public/p2189555693.jpg)
 }
 .index-content .section { margin-left:30%; padding-top:80px; padding-right:15%; ;}
 
