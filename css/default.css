@@ -84,13 +84,13 @@ pre ol{margin-left:25px;list-style-type:decimal;}
     background-position:50% 50%;
 }
 .tech .aside{
-    background-image:url('/images/huise01.jpg');
-}
-.read .aside{
     background-image:url('/images/chaojiyingxiong01.jpg');
 }
+.read .aside{
+    background-image:url('/images/chaojiyingxiong03.jpg');
+}
 .blog .aside{
-    background-image:url('/images/huise23.jpg')
+    background-image:url('/images/chaojiyingxiong06.jpg')
 }
 .index-content .section { margin-left:30%; padding-top:80px; padding-right:15%; ;}
 
