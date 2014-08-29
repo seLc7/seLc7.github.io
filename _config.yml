@@ -1,11 +1,27 @@
-auto: true
-
 markdown: rdiscount
 pygments: true
-paginate: 8
-permalink: /:title
+permalink: /:year/:month/:day/:title.html
+name: "sE_Lc7"
+markdown: rdiscount
 
-title: Cheng's
-url: http://selc7.github.io/
-feed: /atom.xml
-author_info: <a href="http://selc7.github.io/">Cheng</a>
+author: "sE_Lc7"
+atom-baseurl: "http://selc7.github.io/"
+disqus: "gopherwood"
+
+navigations:
+  - title: Archive
+    class: fa fa-list-ul
+    href: /archive.html
+  - title: Tags
+    class: fa fa-tags
+    href: /tags.html
+  - title: About
+    class: fa fa-user
+    href: /about.html
+  - title: Blogroll
+    class: fa fa-link
+    href: /links.html
+  - title: Subscribe
+    class: fa fa-rss
+    href: /atom.xml
+
