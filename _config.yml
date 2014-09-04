@@ -4,9 +4,9 @@ permalink: /:year/:month/:day/:title.html
 name: "Excelsior！"
 markdown: rdiscount
 
-author: "sE_Lc7"
+author: "Cheng"
 atom-baseurl: "http://selc7.github.io/"
-disqus: "gopherwood"
+disqus: "selc7"
 
 navigations:
   - title: Archive
