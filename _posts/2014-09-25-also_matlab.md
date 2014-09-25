@@ -40,6 +40,5 @@ tags:
     end
 
 其他查找到的**tips**：
-
 *   `subplot()`可以同时生成两个图在一个对话框中。
 *   上面的两个文件保存为.m格式，需在统一目录下才能查找到zeta_distribution函数。
