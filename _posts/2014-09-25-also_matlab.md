@@ -8,7 +8,7 @@ tags:
 
     y= hist(outRate,50);
 
-    y1=y/sum(y); % 调整纵坐标比利
+    y1=y/sum(y); % 调整纵坐标比例
 
     pingjun=mean(y1)  % 均值
     %s=std2(y1); %均方差
@@ -19,7 +19,7 @@ tags:
 
     figure(1);
     loglog(1:50,y1,'.r');
-    hold on;  %在一个图里生成图像
+    hold on;  %在同一个图里生成图像
     loglog(1:50,zeta_y);
 
     set(gca,'xgrid','on');
@@ -40,5 +40,6 @@ tags:
     end
 
 其他查找到的**tips**：
+
 *   `subplot()`可以同时生成两个图在一个对话框中。
 *   上面的两个文件保存为.m格式，需在统一目录下才能查找到zeta_distribution函数。
