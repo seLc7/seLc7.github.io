@@ -24,7 +24,7 @@ tags:
 
     set(gca,'xgrid','on');
 
-上面的程序段即使Matlab中生成对比图像的代码段。`loglog(1:50,y1,'.r');`中的`.r`表示红色的点状散点，也可以声明为`+r`等。最后一行的`set(gca,'xgrid','on');`表示只显示x轴的grid网格线。`zeta_distribution`即使生成zeta曲线的函数，其代码如下：
+上面的程序段即是Matlab中生成对比图像的代码段。`loglog(1:50,y1,'.r');`中的`.r`表示红色的点状散点，也可以声明为`+r`等。最后一行的`set(gca,'xgrid','on');`表示只显示x轴的grid网格线。`zeta_distribution`即是生成zeta曲线的函数，其代码如下：
 
     % zeta distribution is one of typical discrete heavy-tailed distributions.
     % 输入: x = [1,2,...,data_length], parameter_tao为函数可调参数.
