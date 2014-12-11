@@ -1,5 +1,5 @@
 ---
-title: 'Begin'
+title: 'Hello World'
 layout: post
 tags:
     - something
