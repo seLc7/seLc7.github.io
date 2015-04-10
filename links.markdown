@@ -3,7 +3,10 @@ title: Links
 layout: page
 ---
 
-[My douban](http://www.douban.com/people/sE_Lc7/)  
+[Chris Banes](https://chris.banes.me/)
+[代码家](http://blog.daimajia.com/)
+[碎星iKe](http://http://imid.me/)  
+
 
 
 *# sort*
