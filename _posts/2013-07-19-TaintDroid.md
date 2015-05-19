@@ -87,6 +87,8 @@ R and E    return and exception
 
 A.B.C constants in the byte-code  字节码常量。
 
+![](/files/2013/20130719_04.jpg)
+
 ![](/files/2013/20130719_03.jpg)
 
 考虑这种情况，tVal是一个整数，值为1，并标记了污点标记TAG。当intProxy（）被传入tVal（实参？）时，TAG就被传播给了val（形参？）。当intProxy（）返回val时，它调用Integer.valueOf（）来获取一个整形实例来对应val，Integer.valueOf（）返回一个值为1的静态整型对象的引用。该对象的值域（of the Integer class）有污染标记∅。但是因为aget-op传播操作规则包含了索引寄存器的污点标记，所以这个对象引用有一个污点标记TAG。因此，只有通过在从整型读取值域时包括对象引用的污点标记（也就是iget-op传播规则），将修正被分配出的污点标记TAG。
