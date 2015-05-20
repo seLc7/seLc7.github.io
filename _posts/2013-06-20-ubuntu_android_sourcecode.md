@@ -90,11 +90,17 @@ goolge提供了一个repo工具，实际上是个脚本文件，里面封装了�
 1. 打开build/core/main.mk文件，找到如下的内容：
  
     ifeq ($(BUILD_OS),linux)
+     
      build_arch := $(shell uname -m)
+     
      #Change the following line for building on a 32-bit system.
+     
      #ifneq (64,$(findstring 64,$(build_arch)))
+     
      $(warning ************************************************************)
+     
      $(warning You are attempting to build on a 32-bit system.)
+     
      $(warning Only 64-bit build environments are supported beyond froyo/2.2.)
     
     将第三行改为
@@ -103,16 +109,27 @@ goolge提供了一个repo工具，实际上是个脚本文件，里面封装了�
 2. 找到下列文件：
      
      /external/clearsilver/cgi/Android.mk
+    
      /external/clearsilver/cs/Android.mk
+    
      /external/clearsilver/java-jni/Android.mk
+    
      /external/clearsilver/util/Android.mk
+    
      修改LOCAL_CFLAGS和LOCAL_LDFLAGS变量：
+    
      # This forces a 64-bit build for Java6
+    
      # Change the following two lines for building on a 32-bit system.
+     
      # LOCAL_CFLAGS += -m64
+    
      # LOCAL_LDFLAGS += -m64
+    
     将后两行修改为
+     
      LOCAL_CFLAGS += -m32
+     
      LOCAL_LDFLAGS += -m32
 
 之后make即可。
@@ -128,7 +145,8 @@ goolge提供了一个repo工具，实际上是个脚本文件，里面封装了�
 
 Ps：第一次在ubuntu下码字。。。
 
-编译时的一些错误：
+
+###编译时的一些错误：
 
 * 错误一：
     
