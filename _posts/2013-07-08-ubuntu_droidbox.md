@@ -75,4 +75,4 @@ tags:
  
     如果安装过程遇到各种错误，百度，google是最好的帮助。
 
-    安装python：`apt-get install python-simplejson`
+    安装python：apt-get install python-simplejson
