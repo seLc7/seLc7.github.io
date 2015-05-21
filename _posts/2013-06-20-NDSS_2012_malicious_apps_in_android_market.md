@@ -10,9 +10,9 @@ tags:
 
 DroidRanger：第一个系统的研究官方和非官方市场的软件。
                         
-                        >最广泛的      
+>最广泛的      
 
-                        >使用两种模式
+>使用两种模式
 
 1. permission-based behavior footprinting scheme（基于权限的行为足迹匹配）
 
