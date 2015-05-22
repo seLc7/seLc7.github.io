@@ -28,34 +28,34 @@ return 填充的层次结构的根视图。如果参数root提供了，那么roo
 
     keyWordBtn.setOnClickListener(new OnClickListener() {           //输入关键字  
                   
-                @Override  
-                public void onClick(View v) {  
-                    // TODO Auto-generated method stub  
-                    AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);  
-                    LayoutInflater inflater = LayoutInflater.from(MainActivity.this);  
-                    final View view = inflater.inflate(R.layout.dialog_search, null);  
+        @Override  
+        public void onClick(View v) {  
+            // TODO Auto-generated method stub  
+            AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);  
+            LayoutInflater inflater = LayoutInflater.from(MainActivity.this);  
+            final View view = inflater.inflate(R.layout.dialog_search, null);  
                       
-                    builder.setTitle("查找关键字Log信息");  
-                    builder.setView(view);  
-                    builder.setPositiveButton("搜索", new DialogInterface.OnClickListener() {  
-                        public void onClick(DialogInterface dialog, int whichButton) {  
+            builder.setTitle("查找关键字Log信息");  
+            builder.setView(view);  
+            builder.setPositiveButton("搜索", new DialogInterface.OnClickListener() {  
+            public void onClick(DialogInterface dialog, int whichButton) {  
       
-                            EditText keyWordText = (EditText) view.findViewById(R.id.input_keyword_edittext);  
-                            String keyWord=keyWordText.getText().toString();  
-                            Toast.makeText(MainActivity.this, keyWord, Toast.LENGTH_SHORT).show();  
+                EditText keyWordText = (EditText) view.findViewById(R.id.input_keyword_edittext);  
+                String keyWord=keyWordText.getText().toString();  
+                Toast.makeText(MainActivity.this, keyWord, Toast.LENGTH_SHORT).show();  
                               
-                        }  
-                    });  
-                      
-                    builder.setNegativeButton("取消", new DialogInterface.OnClickListener() {  
-                        public void onClick(DialogInterface dialog, int whichButton) {  
-                          
-                        }  
-                    });  
-                    builder.create().show();  
-                    serviceFlag=2;  
                 }  
             });  
+                      
+            builder.setNegativeButton("取消", new DialogInterface.OnClickListener() {  
+                public void onClick(DialogInterface dialog, int whichButton) {  
+                          
+                }  
+            });  
+            builder.create().show();  
+                serviceFlag=2;  
+        }  
+    });  
 
 
 EditText控件获取输入内容，需要调用getText()
