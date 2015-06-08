@@ -17,6 +17,7 @@ SharedPreferences 用法很简单，如果你想要编辑SharedPreferences中的
 举例如下：
 
 A中：
+
 ```java
 Editor sharedata = getSharedPreferences("data", 0).edit();  
 sharedata.putString("item","hello getSharedPreferences");  
@@ -24,6 +25,7 @@ sharedata.commit();
 ```
 
 B中：
+
 ```java
 SharedPreferences sharedata = getSharedPreferences("data", 0);  
 String data = sharedata.getString("item", null);  
@@ -70,6 +72,7 @@ commit将同步的将数据写到preferences；apply立即更改内存中的Shar
 由于SharedPreferences在进程中是单实例的。在忽悠返回值的前提下，取代任何实例的commit或apply都是安全的。
 
 ps：
+
 ```java
 private SharedPreferences settings;  
 SharedPreferences.Editor editor = settings.edit();  
@@ -80,6 +83,9 @@ editor.commit();
 references：
 
 http://blog.csdn.net/renero/article/details/6635728
+
 http://menuz.iteye.com/blog/1235308
+
 http://tanqi0508.blog.163.com/blog/static/1883557772012111104326404/
+
 http://www.cnblogs.com/wisekingokok/archive/2011/09/16/2177833.html
