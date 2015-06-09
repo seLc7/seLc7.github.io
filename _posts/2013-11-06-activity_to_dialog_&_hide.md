@@ -39,15 +39,15 @@ ok，我发现activity变成对话框的弹出模式了。但是背景也就是�
 
 ```xml
 <resources>
-<style name="dialog" parent="@android:style/Theme.Dialog">  
-<item name="android:windowFrame">@null</item><!-- activity无黑边 -->  
-<item name="android:windowIsFloating">true</item><!-- activity可滑动 -->  
-<item name="android:windowIsTranslucent">false</item><!-- activity透明 -->  
-<item name="android:windowNoTitle">true</item><!-- activity无标题 -->  
-<item name="android:background">@android:color/black</item>  
-<item name="android:windowBackground">@null</item>  
-<item name="android:backgroundDimEnabled">false</item><!-- activity不变暗 -->
-</style>  
+    <style name="dialog" parent="@android:style/Theme.Dialog">  
+        <item name="android:windowFrame">@null</item><!-- activity无黑边 -->  
+        <item name="android:windowIsFloating">true</item><!-- activity可滑动 -->  
+        <item name="android:windowIsTranslucent">false</item><!-- activity透明 -->  
+        <item name="android:windowNoTitle">true</item><!-- activity无标题 -->  
+        <item name="android:background">@android:color/black</item>  
+        <item name="android:windowBackground">@null</item>  
+        <item name="android:backgroundDimEnabled">false</item><!-- activity不变暗 -->
+    </style>  
 </resources>
 ```
 
