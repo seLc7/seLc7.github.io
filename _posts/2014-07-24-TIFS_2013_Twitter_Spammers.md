@@ -2,7 +2,6 @@
 title: 'TIFS_2013_Empirical Evaluation and New Design for Fighting Evolving Twitter Spammers'
 layout: post
 tags:
-    - tech
     - paper
 ---
 整篇文章基本上是描述对于twitter上的spammer进行检测。
