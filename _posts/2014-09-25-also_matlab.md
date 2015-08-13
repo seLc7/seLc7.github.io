@@ -3,6 +3,7 @@ title: '又是Matlab'
 layout: post
 tags:
     - tech
+    - matlab
 ---
 今天的任务是生成一个对数坐标拟合图。采用的对比曲线是Zeta distribution，长尾分布的一种。
 
