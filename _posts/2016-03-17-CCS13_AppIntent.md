@@ -19,6 +19,5 @@ AppIntent不是一个自动检测非意愿信息传输的方法（好像也不�
 整体框架由两部分组成：
 
 * Event-space Constraint Guided Symbolic Execution. (static taint analysis; critical events; essential events)
-
 * Dynamic Program Analysis Platform. (InstrumentationTestRunner)
 
