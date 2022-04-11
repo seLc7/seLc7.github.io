@@ -4,12 +4,19 @@ layout: page
 ---
 
 I am a
+>husband
 
-> Coder |  may be more in future
+>father (^o^)
+
+>Ph. D.
+
+>coder (Now no? Only this tag once.) |  may be more in future
 
 who involved in 
 
 > [github](https://github.com/seLc7)
+
+> and this fxxking world!!!(-。-)
 
 E-mail 
 
